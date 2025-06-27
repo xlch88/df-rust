@@ -9,7 +9,7 @@ export interface FsStat {
   size: bigint
   used: bigint
   avail: bigint
-  pcent: string
+  pcent: number
   target: string
 }
 export declare function df(): Array<FsStat>
