@@ -1,0 +1,25 @@
+# Rust specific
+target/
+**/*.rs.bk
+
+# Dependency directory
+node_modules/
+
+# Build directories
+*.node
+
+# Build artifacts
+*.rlib
+*.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

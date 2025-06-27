@@ -1,0 +1,4 @@
+{
+	"name": "df-addon",
+	"targets": ["x86_64-unknown-linux-gnu"]
+}

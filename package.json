@@ -1,0 +1,14 @@
+{
+	"name": "df-addon",
+	"version": "0.1.0",
+	"license": "MIT",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"install": "napi build --release",
+		"rebuild": "napi build --release"
+	},
+	"dependencies": {
+		"@napi-rs/cli": "^2.0.0"
+	}
+}
