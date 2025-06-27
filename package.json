@@ -1,5 +1,5 @@
 {
-	"name": "df-addon",
+	"name": "df-rust",
 	"version": "0.1.0",
 	"license": "MIT",
 	"main": "index.js",
