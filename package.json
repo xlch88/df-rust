@@ -4,6 +4,13 @@
 	"license": "MIT",
 	"main": "index.js",
 	"type": "module",
+	"files": [
+		"src",
+		"index.js",
+		"index.d.ts",
+		"Cargo.toml",
+		"napi.config.json"
+	],
 	"scripts": {
 		"install": "napi build --release",
 		"rebuild": "napi build --release"
