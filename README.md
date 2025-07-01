@@ -10,6 +10,8 @@ This project provides functionality similar to `df --output=fstype,source,size,u
 
 ## Installation
 
+> **Note:** Before installing this package, please ensure that [Rust](https://www.rust-lang.org/tools/install) is installed on your system. Rust is a required dependency for building this project.
+
 Build and install from the project root directory:
 
 ```bash

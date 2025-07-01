@@ -1,12 +1,16 @@
 {
 	"name": "df-rust",
-	"version": "0.1.0",
+	"version": "0.0.2",
 	"license": "MIT",
 	"main": "index.js",
+	"bin": {
+		"node-df-rust": "bin.js"
+	},
 	"files": [
 		"src",
 		"index.js",
 		"index.d.ts",
+		"bin.js",
 		"Cargo.toml",
 		"napi.config.json"
 	],
@@ -16,5 +20,8 @@
 	},
 	"dependencies": {
 		"@napi-rs/cli": "^2.0.0"
+	},
+	"devDependencies": {
+		"@types/node": "^24.0.8"
 	}
 }
