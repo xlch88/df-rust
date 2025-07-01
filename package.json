@@ -1,6 +1,6 @@
 {
 	"name": "df-rust",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"license": "MIT",
 	"main": "index.js",
 	"bin": {
@@ -15,7 +15,7 @@
 		"napi.config.json"
 	],
 	"scripts": {
-		"install": "napi build --release",
+		"install": "npx napi build --release",
 		"rebuild": "napi build --release"
 	},
 	"dependencies": {
